@@ -22,6 +22,17 @@ Other repositories remain separate:
 
 The backend is the source of truth for user privileges, workflow approval, financial calculations, balances, audit events, and transaction status. Frontends only access approved APIs.
 
+## Architecture and implementation instructions
+
+Before implementing a feature, read:
+
+1. [`AGENTS.md`](AGENTS.md) for repository-wide instructions and non-negotiable safety rules.
+2. [`docs/architecture/FRONTEND_ADMIN_ARCHITECTURE.md`](docs/architecture/FRONTEND_ADMIN_ARCHITECTURE.md) for the target portal, package, runtime, security, accessibility, state, and delivery architecture.
+3. [`docs/design/UI_DESIGN_DIRECTION.md`](docs/design/UI_DESIGN_DIRECTION.md) for visual identity, canonical layouts, portal navigation, banking components, interaction language, and anti-generic UI rules.
+4. [`docs/implementation/README.md`](docs/implementation/README.md), the applicable phase overview, and the applicable epic document for executable scope, backend dependencies, UI states, tests, and acceptance gates.
+
+Implementation follows the platform phases from engineering foundation through banking foundation, regulated operations, growth channels, advanced banking, and governed optimisation. A documented feature is planned scope until its epic is approved and its implementation evidence is complete.
+
 ## Objectives
 
 - Provide secure, reliable internal operational workflows across branches/institutions.
